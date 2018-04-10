@@ -1,10 +1,10 @@
 ## Work with the project
-* Visual Studio 2015 or equivalent with update Web Tools (Asp.NET Core 1.0.1).
+* Visual Studio 2017 15.6.5 or greater.
 
 ## The project
 * Based on Official Documentation [See](https://docs.asp.net/en/latest/intro.html).
 * Decoupled Unit-testable.
-* Upgraded from AspNET Core 1.0.0 to AspNET Core 1.0.1.
+* Upgraded from AspNET Core 1.0.1 to AspNET Core 2.0.
 * Layered project, Model, Repository and Services.
 * UnitOfWork (repository).
 * Generic Repository.
@@ -22,7 +22,7 @@
 * ConnectionString at node section `TemplateConnection` of appsettings.json.
 
 ## Unit Testing
-* xUnit 2.1.0.
+* xUnit 2.3.1.
 * For Repository and Service Layer, using InMemory (database) [See](https://docs.efproject.net/en/latest/providers/in-memory/index.html?highlight=testing).
-* For Controllers, using Moq 4.6.38-alpha.
+* For Controllers, using Moq 4.8.2
 * Custom `CodeCoverage.runsettings` [See](https://msdn.microsoft.com/en-us/library/jj159530.aspx).
